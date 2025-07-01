@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redimensionando</title>
+</head>
+<body>
+    <h1>Imagens que se Adaptam</h1>
+    <p>Nessa prática vamos ver uma imagem que se adapta ao tamanho da tela. usando a tag picture e source</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="celxi-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="celxi-m.jpg" type="image/jpg">
+        <img src="celxi-g.jpg" alt="Celxi">
+    </picture>
+</body>
+</html>

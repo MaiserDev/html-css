@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.445);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        
+        footer > p {
+            margin: 0px;
+        }
+
+        article > aside {
+            color: blueviolet;
+        }
+
+        nav > a:hover {
+            color: aqua;
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin: 30px;
+            
+        }
+        
+        nav {
+            border: 3px solid black;
+            padding: 1px;
+            margin: 5px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.333);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2> EU ME CAGUEI?</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsa neque possimus ex praesentium obcaecati quisquam quod cupiditate laborum necessitatibus itaque, nihil earum ab autem enim dicta ipsum tempore? Explicabo.</p>
+
+                <aside>
+                    o autor desse texto sou eu
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Feito por mim</p>
+
+    </footer>
+</body>
+</html>

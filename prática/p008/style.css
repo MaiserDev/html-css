@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #0026ff, #6f00ff);
+    text-align: justify;
+}
+
+main {
+    width: 500px;
+    height: 2000px;
+    background-color: rgba(255, 255, 255, 0.899);
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #00137e ;
+    margin: auto;
+
+}
+
+#principal {
+    text-align: center;
+}
+
+.produto > img {
+    width: 350px;
+    
+}
+
+.produto {
+    text-align: center;
+}
+
+.descricao {
+    width: 500px;
+    margin: auto;
+    text-align: justify;
+}
+
+.preco {
+    width: 100px;
+    border: 1px solid black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #ff8c00, #ff6200);
+    margin: auto;
+}
+
+.preco:hover {
+    background-image: linear-gradient(to right, #ffa065);
+}
