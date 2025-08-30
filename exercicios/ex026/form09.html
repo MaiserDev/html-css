@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="iano">Ano em que estamos</label>
+            <input type="number" name="ano" id="iano" min="1925" max="2025" oninput="isoma.innerHTML = Number(iano.value) - Number(iano2.value)">
+        </p>
+        
+        <p>
+            <label for="iano2">Ano em que nasceu</label>
+            <input type="number" name="ano2" id="iano2" min="1925" max="2025" oninput="isoma.innerHTML = Number(iano.value) - Number(iano2.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Sua idade é:</label>
+            <output id="isoma">0</output>
+        </p>
+    </form>
+    
+</body>
+</html>

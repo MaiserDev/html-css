@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste formulários</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <select name="Fruta" id="ifruta">
+                <option value="Maçã">Maçã</option>
+                <option value="Banana">Banana</option>
+                <option value="Morango">Morango</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="Programador">Programador</option>
+                <option value="Contabilista">Contabilista</option>
+                <option value="Design">Design</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imensagem">Mensagem</label><br>
+            <textarea name="mensagem" id="imensagem" cols="40" rows="20"></textarea>
+        </p>
+    </form>
+</body>
+</html>
